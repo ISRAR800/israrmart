@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Israr Mart | Healthy Recipes</title>
+  <link rel="stylesheet" href="./style.css" />
+</head>
+
+<body>
+  <!-- Header -->
+  <header class="header">
+    <div class="container nav-container">
+      <h1 class="logo">Israr<span>Mart</span></h1>
+      <div class="hamburger-menu">
+        <div class="bar"></div>
+        <div class="bar"></div>
+        <div class="bar"></div>
+      </div>
+      <nav>
+        <ul class="nav-links">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="index.html#products">Products</a></li>
+          <li><a href="recipes.html">Recipes</a></li>
+          <li><a href="./about.html">About</a></li>
+          <li><a href="#" id="cart-toggle">🛒 Cart (<span id="cart-count">0</span>)</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Recipes Hero Section -->
+  <section class="hero" id="recipes-hero" style="background-image: url('https://images.unsplash.com/photo-1498837167922-ddd27525d352?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80');">
+    <div class="hero-content">
+      <h2>Healthy & Delicious Recipes</h2>
+      <p>Discover tasty meals you can prepare with our fresh ingredients</p>
+    </div>
+  </section>
+
+  <!-- Recipes Section -->
+  <section class="recipes-section">
+    <div class="container">
+      <h2 class="section-title">Featured Recipes</h2>
+      <p class="section-description">Try these delicious recipes made with our fresh ingredients</p>
+      
+      <div class="recipes-grid">
+        <!-- Recipe Card 1 -->
+        <div class="recipe-card">
+          <div class="recipe-image">
+            <img src="https://images.unsplash.com/photo-1540189549336-e6e99c3679fe?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60" alt="Fresh Vegetable Salad">
+          </div>
+          <div class="recipe-content">
+            <h3>Fresh Vegetable Salad</h3>
+            <div class="recipe-meta">
+              <span>⏱️ 15 mins</span>
+              <span>🔥 Easy</span>
+              <span>🥗 Vegetarian</span>
+            </div>
+            <p>A refreshing mix of seasonal vegetables with a light vinaigrette dressing.</p>
+            <a href="recipe-view.html" class="recipe-btn">View Recipe</a>
+          </div>
+        </div>
+        
+        <!-- Recipe Card 2 -->
+        <div class="recipe-card">
+          <div class="recipe-image">
+            <img src="https://images.unsplash.com/photo-1476718406336-bb5a9690ee2a?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60" alt="Grilled Salmon with Herbs">
+          </div>
+          <div class="recipe-content">
+            <h3>Grilled Salmon with Herbs</h3>
+            <div class="recipe-meta">
+              <span>⏱️ 25 mins</span>
+              <span>🔥 Medium</span>
+              <span>🐟 Seafood</span>
+            </div>
+            <p>Perfectly grilled salmon fillet with fresh herbs and lemon.</p>
+            <a href="recipe-view.html" class="recipe-btn">View Recipe</a>
+          </div>
+        </div>
+        
+        <!-- Recipe Card 3 -->
+        <div class="recipe-card">
+          <div class="recipe-image">
+            <img src="https://images.unsplash.com/photo-1506354666786-959d6d497f1a?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60" alt="Berry Smoothie Bowl">
+          </div>
+          <div class="recipe-content">
+            <h3>Berry Smoothie Bowl</h3>
+            <div class="recipe-meta">
+              <span>⏱️ 10 mins</span>
+              <span>🔥 Easy</span>
+              <span>🍓 Vegan</span>
+            </div>
+            <p>A nutritious breakfast bowl with mixed berries, banana, and granola.</p>
+            <a href="recipe-view.html" class="recipe-btn">View Recipe</a>
+          </div>
+        </div>
+        
+        <!-- Recipe Card 4 -->
+        <div class="recipe-card">
+          <div class="recipe-image">
+            <img src="https://images.unsplash.com/photo-1512621776951-a57141f2eefd?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60" alt="Roasted Vegetable Pasta">
+          </div>
+          <div class="recipe-content">
+            <h3>Roasted Vegetable Pasta</h3>
+            <div class="recipe-meta">
+              <span>⏱️ 35 mins</span>
+              <span>🔥 Medium</span>
+              <span>🌱 Vegetarian</span>
+            </div>
+            <p>Whole grain pasta with oven-roasted seasonal vegetables and herbs.</p>
+            <a href="recipe-view.html" class="recipe-btn">View Recipe</a>
+          </div>
+        </div>
+        
+        <!-- Recipe Card 5 -->
+        <div class="recipe-card">
+          <div class="recipe-image">
+            <img src="https://images.unsplash.com/photo-1504674900247-0877df9cc836?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60" alt="Avocado Toast">
+          </div>
+          <div class="recipe-content">
+            <h3>Avocado Toast with Poached Egg</h3>
+            <div class="recipe-meta">
+              <span>⏱️ 15 mins</span>
+              <span>🔥 Easy</span>
+              <span>🥑 Breakfast</span>
+            </div>
+            <p>Sourdough toast topped with mashed avocado, poached egg, and chili flakes.</p>
+            <a href="recipe-view.html" class="recipe-btn">View Recipe</a>
+          </div>
+        </div>
+        
+        <!-- Recipe Card 6 -->
+        <div class="recipe-card">
+          <div class="recipe-image">
+            <img src="https://images.unsplash.com/photo-1547592180-85f173990554?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60" alt="Quinoa Buddha Bowl">
+          </div>
+          <div class="recipe-content">
+            <h3>Quinoa Buddha Bowl</h3>
+            <div class="recipe-meta">
+              <span>⏱️ 30 mins</span>
+              <span>🔥 Medium</span>
+              <span>🌱 Vegan</span>
+            </div>
+            <p>Protein-packed quinoa bowl with roasted vegetables and tahini dressing.</p>
+            <a href="recipe-view.html" class="recipe-btn">View Recipe</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Newsletter Section -->
+  <section class="newsletter-section">
+    <div class="newsletter-container">
+      <h2>Get Weekly Recipe Ideas</h2>
+      <p>Subscribe to our newsletter for fresh recipe ideas delivered to your inbox every week!</p>
+      <form class="newsletter-form">
+        <input type="email" placeholder="Your email address" required>
+        <button type="submit">Subscribe</button>
+      </form>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <div class="footer-container">
+      <div class="footer-section">
+        <h3>FreshMart</h3>
+        <p>Your one-stop shop for fresh groceries and healthy living.</p>
+        <div class="social-links">
+          <a href="#"><i class="fab fa-facebook-f">f</i></a>
+          <a href="#"><i class="fab fa-twitter">t</i></a>
+          <a href="#"><i class="fab fa-instagram">i</i></a>
+          <a href="#"><i class="fab fa-pinterest">p</i></a>
+        </div>
+      </div>
+      <div class="footer-section">
+        <h3>Quick Links</h3>
+        <ul class="footer-links">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="index.html#products">Products</a></li>
+          <li><a href="recipes.html">Recipes</a></li>
+          <li><a href="about.html">About Us</a></li>
+        </ul>
+      </div>
+      <div class="footer-section">
+        <h3>Customer Service</h3>
+        <ul class="footer-links">
+          <li><a href="#">FAQ</a></li>
+          <li><a href="#">Shipping Policy</a></li>
+          <li><a href="#">Return Policy</a></li>
+          <li><a href="#">Privacy Policy</a></li>
+        </ul>
+      </div>
+      <div class="footer-section">
+        <h3>Contact Us</h3>
+        <ul class="footer-links">
+          <li>📱 +1 (555) 123-4567</li>
+          <li>✉️ info@freshmart.com</li>
+          <li>🏠 123 Grocery St, Food City</li>
+        </ul>
+      </div>
+    </div>
+    <div class="copyright">
+      <p>&copy; 2023 FreshMart. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <!-- Cart Popup -->
+  <div class="cart hidden">
+    <h3>Your Cart</h3>
+    <ul id="cart-items"></ul>
+    <p>Total: $<span id="cart-total">0.00</span></p>
+    <button class="btn small">Checkout</button>
+    <button class="btn small" id="close-cart">Close</button>
+  </div>
+
+  <script src="./script.js"></script>
+</body>
+
+</html>

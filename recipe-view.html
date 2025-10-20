@@ -1,0 +1,526 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Israr Mart | Detailed Recipes</title>
+  <link rel="stylesheet" href="./style.css" />
+  <link rel="stylesheet" href="./recipe-view.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" />
+</head>
+
+<body>
+  <!-- Header -->
+  <header class="header">
+    <div class="container nav-container">
+      <h1 class="logo">Israr<span>Mart</span></h1>
+      <div class="hamburger-menu">
+        <div class="bar"></div>
+        <div class="bar"></div>
+        <div class="bar"></div>
+      </div>
+      <nav>
+        <ul class="nav-links">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="index.html#products">Products</a></li>
+          <li><a href="recipes.html">Recipes</a></li>
+          <li><a href="./about.html">About</a></li>
+          <li><a href="#" id="cart-toggle">🛒 Cart (<span id="cart-count">0</span>)</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Recipe View Hero Section -->
+  <section class="hero" id="recipe-view-hero" style="background-image: url('https://images.unsplash.com/photo-1556911220-e15b29be8c8f?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80');">
+    <div class="hero-content">
+      <h2>Detailed Recipes</h2>
+      <p>Complete instructions for our most popular healthy recipes</p>
+    </div>
+  </section>
+
+  <!-- Recipe Details Section -->
+  <section class="recipe-details-section">
+    <div class="container">
+      <h2 class="section-title">Our Featured Recipes</h2>
+      <p class="section-description">Explore our collection of healthy and delicious recipes made with fresh ingredients</p>
+      
+      <!-- Recipe 1: Left image, Right content -->
+      <div class="recipe-detail-card left-image">
+        <div class="recipe-detail-image">
+          <img src="https://images.unsplash.com/photo-1540189549336-e6e99c3679fe?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60" alt="Fresh Vegetable Salad">
+        </div>
+        <div class="recipe-detail-content">
+          <h3>Fresh Vegetable Salad</h3>
+          <div class="recipe-meta">
+            <span><i class="fas fa-clock"></i> 15 mins</span>
+            <span><i class="fas fa-fire"></i> Easy</span>
+            <span><i class="fas fa-leaf"></i> Vegetarian</span>
+            <span><i class="fas fa-utensils"></i> Serves 4</span>
+          </div>
+          
+          <div class="recipe-description">
+            <p>A refreshing mix of seasonal vegetables with a light vinaigrette dressing. Perfect for a healthy lunch or as a side dish for dinner.</p>
+          </div>
+          
+          <div class="recipe-ingredients">
+            <h4>Ingredients</h4>
+            <ul>
+              <li>2 cups mixed salad greens</li>
+              <li>1 cucumber, sliced</li>
+              <li>1 bell pepper, diced</li>
+              <li>1 carrot, julienned</li>
+              <li>1/2 red onion, thinly sliced</li>
+              <li>10 cherry tomatoes, halved</li>
+              <li>1/4 cup olive oil</li>
+              <li>2 tbsp balsamic vinegar</li>
+              <li>1 tsp honey</li>
+              <li>Salt and pepper to taste</li>
+            </ul>
+          </div>
+          
+          <div class="recipe-instructions">
+            <h4>Instructions</h4>
+            <ol>
+              <li>Wash and prepare all vegetables.</li>
+              <li>In a large bowl, combine the salad greens, cucumber, bell pepper, carrot, red onion, and cherry tomatoes.</li>
+              <li>In a small bowl, whisk together olive oil, balsamic vinegar, honey, salt, and pepper.</li>
+              <li>Pour the dressing over the salad and toss gently to coat.</li>
+              <li>Serve immediately or refrigerate for up to 1 hour before serving.</li>
+            </ol>
+          </div>
+          
+          <div class="recipe-nutrition">
+            <h4>Nutrition Information</h4>
+            <div class="nutrition-grid">
+              <div class="nutrition-item">
+                <span class="nutrition-value">120</span>
+                <span class="nutrition-label">Calories</span>
+              </div>
+              <div class="nutrition-item">
+                <span class="nutrition-value">9g</span>
+                <span class="nutrition-label">Fat</span>
+              </div>
+              <div class="nutrition-item">
+                <span class="nutrition-value">10g</span>
+                <span class="nutrition-label">Carbs</span>
+              </div>
+              <div class="nutrition-item">
+                <span class="nutrition-value">2g</span>
+                <span class="nutrition-label">Protein</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <!-- Recipe 2: Right image, Left content -->
+      <div class="recipe-detail-card right-image">
+        <div class="recipe-detail-content">
+          <h3>Grilled Salmon with Herbs</h3>
+          <div class="recipe-meta">
+            <span><i class="fas fa-clock"></i> 25 mins</span>
+            <span><i class="fas fa-fire"></i> Medium</span>
+            <span><i class="fas fa-fish"></i> Seafood</span>
+            <span><i class="fas fa-utensils"></i> Serves 2</span>
+          </div>
+          
+          <div class="recipe-description">
+            <p>Perfectly grilled salmon fillet with fresh herbs and lemon. A protein-rich dish that's both healthy and delicious.</p>
+          </div>
+          
+          <div class="recipe-ingredients">
+            <h4>Ingredients</h4>
+            <ul>
+              <li>2 salmon fillets (6 oz each)</li>
+              <li>2 tbsp olive oil</li>
+              <li>2 cloves garlic, minced</li>
+              <li>1 tbsp fresh dill, chopped</li>
+              <li>1 tbsp fresh parsley, chopped</li>
+              <li>1 lemon, sliced</li>
+              <li>Salt and pepper to taste</li>
+            </ul>
+          </div>
+          
+          <div class="recipe-instructions">
+            <h4>Instructions</h4>
+            <ol>
+              <li>Preheat grill to medium-high heat (about 375°F).</li>
+              <li>In a small bowl, mix olive oil, minced garlic, dill, and parsley.</li>
+              <li>Pat salmon fillets dry with paper towels and season with salt and pepper.</li>
+              <li>Brush the herb mixture over the salmon fillets.</li>
+              <li>Place salmon on the grill, skin side down, and cook for 4-5 minutes.</li>
+              <li>Carefully flip and cook for another 3-4 minutes until the salmon is cooked through but still moist.</li>
+              <li>Serve with lemon slices and additional fresh herbs if desired.</li>
+            </ol>
+          </div>
+          
+          <div class="recipe-nutrition">
+            <h4>Nutrition Information</h4>
+            <div class="nutrition-grid">
+              <div class="nutrition-item">
+                <span class="nutrition-value">320</span>
+                <span class="nutrition-label">Calories</span>
+              </div>
+              <div class="nutrition-item">
+                <span class="nutrition-value">18g</span>
+                <span class="nutrition-label">Fat</span>
+              </div>
+              <div class="nutrition-item">
+                <span class="nutrition-value">2g</span>
+                <span class="nutrition-label">Carbs</span>
+              </div>
+              <div class="nutrition-item">
+                <span class="nutrition-value">36g</span>
+                <span class="nutrition-label">Protein</span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="recipe-detail-image">
+          <img src="https://images.unsplash.com/photo-1476718406336-bb5a9690ee2a?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60" alt="Grilled Salmon with Herbs">
+        </div>
+      </div>
+      
+      <!-- Recipe 3: Left image, Right content -->
+      <div class="recipe-detail-card left-image">
+        <div class="recipe-detail-image">
+          <img src="https://images.unsplash.com/photo-1506354666786-959d6d497f1a?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60" alt="Berry Smoothie Bowl">
+        </div>
+        <div class="recipe-detail-content">
+          <h3>Berry Smoothie Bowl</h3>
+          <div class="recipe-meta">
+            <span><i class="fas fa-clock"></i> 10 mins</span>
+            <span><i class="fas fa-fire"></i> Easy</span>
+            <span><i class="fas fa-seedling"></i> Vegan</span>
+            <span><i class="fas fa-utensils"></i> Serves 1</span>
+          </div>
+          
+          <div class="recipe-description">
+            <p>A nutritious breakfast bowl with mixed berries, banana, and granola. Start your day with this antioxidant-rich, energizing meal.</p>
+          </div>
+          
+          <div class="recipe-ingredients">
+            <h4>Ingredients</h4>
+            <ul>
+              <li>1 frozen banana</li>
+              <li>1 cup mixed frozen berries (strawberries, blueberries, raspberries)</li>
+              <li>1/4 cup almond milk</li>
+              <li>1 tbsp honey or maple syrup (optional)</li>
+              <li>Toppings: fresh berries, sliced banana, granola, chia seeds, coconut flakes</li>
+            </ul>
+          </div>
+          
+          <div class="recipe-instructions">
+            <h4>Instructions</h4>
+            <ol>
+              <li>Add frozen banana, mixed berries, and almond milk to a blender.</li>
+              <li>Blend until smooth and creamy. Add more almond milk if needed, but keep it thick.</li>
+              <li>Add honey or maple syrup if desired and blend briefly.</li>
+              <li>Pour into a bowl and arrange toppings artfully on top.</li>
+              <li>Serve immediately and enjoy with a spoon.</li>
+            </ol>
+          </div>
+          
+          <div class="recipe-nutrition">
+            <h4>Nutrition Information</h4>
+            <div class="nutrition-grid">
+              <div class="nutrition-item">
+                <span class="nutrition-value">280</span>
+                <span class="nutrition-label">Calories</span>
+              </div>
+              <div class="nutrition-item">
+                <span class="nutrition-value">4g</span>
+                <span class="nutrition-label">Fat</span>
+              </div>
+              <div class="nutrition-item">
+                <span class="nutrition-value">58g</span>
+                <span class="nutrition-label">Carbs</span>
+              </div>
+              <div class="nutrition-item">
+                <span class="nutrition-value">5g</span>
+                <span class="nutrition-label">Protein</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <!-- Recipe 4: Right image, Left content -->
+      <div class="recipe-detail-card right-image">
+        <div class="recipe-detail-content">
+          <h3>Roasted Vegetable Pasta</h3>
+          <div class="recipe-meta">
+            <span><i class="fas fa-clock"></i> 35 mins</span>
+            <span><i class="fas fa-fire"></i> Medium</span>
+            <span><i class="fas fa-leaf"></i> Vegetarian</span>
+            <span><i class="fas fa-utensils"></i> Serves 4</span>
+          </div>
+          
+          <div class="recipe-description">
+            <p>Whole grain pasta with oven-roasted seasonal vegetables and herbs. A hearty and satisfying meal that's full of flavor and nutrients.</p>
+          </div>
+          
+          <div class="recipe-ingredients">
+            <h4>Ingredients</h4>
+            <ul>
+              <li>8 oz whole grain pasta</li>
+              <li>1 zucchini, diced</li>
+              <li>1 bell pepper, diced</li>
+              <li>1 red onion, sliced</li>
+              <li>2 cups cherry tomatoes</li>
+              <li>4 cloves garlic, minced</li>
+              <li>3 tbsp olive oil</li>
+              <li>2 tsp Italian herbs</li>
+              <li>1/4 cup grated Parmesan cheese (optional)</li>
+              <li>Fresh basil leaves</li>
+              <li>Salt and pepper to taste</li>
+            </ul>
+          </div>
+          
+          <div class="recipe-instructions">
+            <h4>Instructions</h4>
+            <ol>
+              <li>Preheat oven to 425°F (220°C).</li>
+              <li>On a large baking sheet, toss zucchini, bell pepper, red onion, cherry tomatoes, and garlic with olive oil, Italian herbs, salt, and pepper.</li>
+              <li>Spread vegetables in a single layer and roast for 20-25 minutes until tender and slightly caramelized.</li>
+              <li>Meanwhile, cook pasta according to package instructions until al dente. Reserve 1/2 cup of pasta water before draining.</li>
+              <li>In a large bowl, combine the roasted vegetables and pasta. Add a splash of pasta water if needed to loosen.</li>
+              <li>Top with Parmesan cheese if using and garnish with fresh basil leaves.</li>
+              <li>Serve warm.</li>
+            </ol>
+          </div>
+          
+          <div class="recipe-nutrition">
+            <h4>Nutrition Information</h4>
+            <div class="nutrition-grid">
+              <div class="nutrition-item">
+                <span class="nutrition-value">320</span>
+                <span class="nutrition-label">Calories</span>
+              </div>
+              <div class="nutrition-item">
+                <span class="nutrition-value">10g</span>
+                <span class="nutrition-label">Fat</span>
+              </div>
+              <div class="nutrition-item">
+                <span class="nutrition-value">48g</span>
+                <span class="nutrition-label">Carbs</span>
+              </div>
+              <div class="nutrition-item">
+                <span class="nutrition-value">12g</span>
+                <span class="nutrition-label">Protein</span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="recipe-detail-image">
+          <img src="https://images.unsplash.com/photo-1512621776951-a57141f2eefd?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60" alt="Roasted Vegetable Pasta">
+        </div>
+      </div>
+      
+      <!-- Recipe 5: Left image, Right content -->
+      <div class="recipe-detail-card left-image">
+        <div class="recipe-detail-image">
+          <img src="https://images.unsplash.com/photo-1504674900247-0877df9cc836?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60" alt="Avocado Toast with Poached Egg">
+        </div>
+        <div class="recipe-detail-content">
+          <h3>Avocado Toast with Poached Egg</h3>
+          <div class="recipe-meta">
+            <span><i class="fas fa-clock"></i> 15 mins</span>
+            <span><i class="fas fa-fire"></i> Easy</span>
+            <span><i class="fas fa-egg"></i> Breakfast</span>
+            <span><i class="fas fa-utensils"></i> Serves 2</span>
+          </div>
+          
+          <div class="recipe-description">
+            <p>Sourdough toast topped with mashed avocado, poached egg, and chili flakes. A protein-packed breakfast that will keep you energized all morning.</p>
+          </div>
+          
+          <div class="recipe-ingredients">
+            <h4>Ingredients</h4>
+            <ul>
+              <li>2 slices sourdough bread</li>
+              <li>1 ripe avocado</li>
+              <li>2 eggs</li>
+              <li>1 tbsp white vinegar</li>
+              <li>1/2 lemon, juiced</li>
+              <li>Red chili flakes</li>
+              <li>Salt and pepper to taste</li>
+              <li>Fresh herbs (optional)</li>
+            </ul>
+          </div>
+          
+          <div class="recipe-instructions">
+            <h4>Instructions</h4>
+            <ol>
+              <li>Toast the sourdough bread until golden and crisp.</li>
+              <li>In a small bowl, mash the avocado with lemon juice, salt, and pepper.</li>
+              <li>Bring a pot of water to a gentle simmer and add white vinegar.</li>
+              <li>Crack each egg into a small cup, then gently slide into the simmering water.</li>
+              <li>Poach eggs for 3-4 minutes until whites are set but yolks are still runny.</li>
+              <li>Spread mashed avocado on toast slices.</li>
+              <li>Top each toast with a poached egg, sprinkle with chili flakes, and garnish with fresh herbs if desired.</li>
+            </ol>
+          </div>
+          
+          <div class="recipe-nutrition">
+            <h4>Nutrition Information</h4>
+            <div class="nutrition-grid">
+              <div class="nutrition-item">
+                <span class="nutrition-value">350</span>
+                <span class="nutrition-label">Calories</span>
+              </div>
+              <div class="nutrition-item">
+                <span class="nutrition-value">22g</span>
+                <span class="nutrition-label">Fat</span>
+              </div>
+              <div class="nutrition-item">
+                <span class="nutrition-value">28g</span>
+                <span class="nutrition-label">Carbs</span>
+              </div>
+              <div class="nutrition-item">
+                <span class="nutrition-value">14g</span>
+                <span class="nutrition-label">Protein</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <!-- Recipe 6: Right image, Left content -->
+      <div class="recipe-detail-card right-image">
+        <div class="recipe-detail-content">
+          <h3>Quinoa Buddha Bowl</h3>
+          <div class="recipe-meta">
+            <span><i class="fas fa-clock"></i> 30 mins</span>
+            <span><i class="fas fa-fire"></i> Medium</span>
+            <span><i class="fas fa-seedling"></i> Vegan</span>
+            <span><i class="fas fa-utensils"></i> Serves 2</span>
+          </div>
+          
+          <div class="recipe-description">
+            <p>Protein-packed quinoa bowl with roasted vegetables and tahini dressing. A balanced meal that's as beautiful as it is nutritious.</p>
+          </div>
+          
+          <div class="recipe-ingredients">
+            <h4>Ingredients</h4>
+            <ul>
+              <li>1 cup quinoa, rinsed</li>
+              <li>2 cups water or vegetable broth</li>
+              <li>1 sweet potato, diced</li>
+              <li>1 cup chickpeas, drained and rinsed</li>
+              <li>1 cup broccoli florets</li>
+              <li>1 avocado, sliced</li>
+              <li>1/4 cup red cabbage, shredded</li>
+              <li>2 tbsp olive oil</li>
+              <li>1 tsp cumin</li>
+              <li>Salt and pepper to taste</li>
+              <li>For the dressing: 2 tbsp tahini, 1 tbsp lemon juice, 1 tbsp maple syrup, water to thin</li>
+            </ul>
+          </div>
+          
+          <div class="recipe-instructions">
+            <h4>Instructions</h4>
+            <ol>
+              <li>Preheat oven to 400°F (200°C).</li>
+              <li>Cook quinoa in water or broth according to package instructions.</li>
+              <li>Toss sweet potato and chickpeas with olive oil, cumin, salt, and pepper.</li>
+              <li>Spread on a baking sheet and roast for 20-25 minutes until tender.</li>
+              <li>Steam broccoli florets until bright green and tender-crisp.</li>
+              <li>Whisk together tahini, lemon juice, maple syrup, and enough water to create a pourable consistency.</li>
+              <li>Assemble bowls: quinoa on the bottom, arranged sections of roasted sweet potato, chickpeas, broccoli, avocado, and red cabbage.</li>
+              <li>Drizzle with tahini dressing and serve.</li>
+            </ol>
+          </div>
+          
+          <div class="recipe-nutrition">
+            <h4>Nutrition Information</h4>
+            <div class="nutrition-grid">
+              <div class="nutrition-item">
+                <span class="nutrition-value">450</span>
+                <span class="nutrition-label">Calories</span>
+              </div>
+              <div class="nutrition-item">
+                <span class="nutrition-value">18g</span>
+                <span class="nutrition-label">Fat</span>
+              </div>
+              <div class="nutrition-item">
+                <span class="nutrition-value">60g</span>
+                <span class="nutrition-label">Carbs</span>
+              </div>
+              <div class="nutrition-item">
+                <span class="nutrition-value">15g</span>
+                <span class="nutrition-label">Protein</span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="recipe-detail-image">
+          <img src="https://images.unsplash.com/photo-1547592180-85f173990554?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60" alt="Quinoa Buddha Bowl">
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Newsletter Section -->
+  <section class="newsletter-section">
+    <div class="newsletter-container">
+      <h2>Get Weekly Recipe Ideas</h2>
+      <p>Subscribe to our newsletter for fresh recipe ideas delivered to your inbox every week!</p>
+      <form class="newsletter-form">
+        <input type="email" placeholder="Your email address" required>
+        <button type="submit">Subscribe</button>
+      </form>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <div class="footer-container">
+      <div class="footer-section">
+        <h3>FreshMart</h3>
+        <p>Your one-stop shop for fresh groceries and healthy living.</p>
+        <div class="social-links">
+          <a href="#"><i class="fab fa-facebook-f">f</i></a>
+          <a href="#"><i class="fab fa-twitter">t</i></a>
+          <a href="#"><i class="fab fa-instagram">i</i></a>
+          <a href="#"><i class="fab fa-pinterest">p</i></a>
+        </div>
+      </div>
+      <div class="footer-section">
+        <h3>Quick Links</h3>
+        <ul class="footer-links">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="index.html#products">Products</a></li>
+          <li><a href="recipes.html">Recipes</a></li>
+          <li><a href="about.html">About Us</a></li>
+        </ul>
+      </div>
+      <div class="footer-section">
+        <h3>Customer Service</h3>
+        <ul class="footer-links">
+          <li><a href="#">FAQ</a></li>
+          <li><a href="#">Shipping Policy</a></li>
+          <li><a href="#">Return Policy</a></li>
+          <li><a href="#">Privacy Policy</a></li>
+        </ul>
+      </div>
+      <div class="footer-section">
+        <h3>Contact Us</h3>
+        <ul class="footer-links">
+          <li>📱 +1 (555) 123-4567</li>
+          <li>✉️ info@freshmart.com</li>
+          <li>🏠 123 Organic Lane, Fresh City</li>
+        </ul>
+      </div>
+    </div>
+    <div class="copyright">
+      <p>&copy; 2023 FreshMart. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script src="./script.js"></script>
+</body>
+
+</html>
